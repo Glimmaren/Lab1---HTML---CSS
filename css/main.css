@@ -35,9 +35,7 @@ header .container .logo-img {
 }
 
 .hero .container article {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
   background: white;
   padding: 1em;
   margin-top: .3em;
@@ -47,22 +45,27 @@ header .container .logo-img {
 }
 
 .hero .container article .article-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   height: 280px;
 }
 
 .hero .container article .article-info {
   display: block;
-  margin: -10px 10px;
+  margin: auto;
 }
 
 .hero .container article .article-info .article-head {
-  display: to;
+  display: block;
   margin-left: 10px;
   text-align: center;
 }
 
 .hero .container article .article-info .article-info-list {
   list-style: none;
+  text-align: center;
+  margin-right: 16px;
 }
 
 .hero .container article .article-info .article-info {
@@ -108,7 +111,7 @@ header .container .logo-img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  border: 3px solid red;
+  border: 3px solid #e69797;
   margin: auto;
   width: 300px;
   height: 170px;
@@ -121,7 +124,7 @@ header .container .logo-img {
 }
 
 .hero .container aside .presentation .presentation-info {
-  margin-right: 0px;
+  margin-left: 15px;
 }
 
 .hero .container aside .presentation .presentation-info h3 {

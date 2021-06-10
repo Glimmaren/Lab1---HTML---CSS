@@ -30,29 +30,35 @@ header {
         flex-flow: column;
 
         article {
-            display: flex;
+            display: block;
             background: white;
             padding: 1em;
             margin-top: .3em;
             order: 1;
 
             .article-img{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
                 height: 280px;
+                
             }
 
             .article-info{
                 display: block;
-                margin: -10px 10px;
+                margin: auto;
 
                 .article-head{
-                    display: to;
+                    display: block;
                     margin-left: 10px;
                     text-align: center;
                 }
 
+
                 .article-info-list{
                     list-style:  none;
-                                       
+                    text-align: center;
+                    margin-right: 16px;               
                 }
     
                 .article-info{
@@ -94,7 +100,7 @@ header {
 
             .presentation{        
                 display: flex;
-                border: 3px solid red;
+                border: 3px solid rgb(230, 151, 151);
                 margin: auto;
                 width: 300px;
                 height: 170px;
@@ -107,7 +113,7 @@ header {
                 }
 
                 .presentation-info{
-                    margin-right: 0px;
+                    margin-left: 15px;
                     
                     h3{
                         margin-top: 5px;
