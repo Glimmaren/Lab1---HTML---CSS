@@ -1,5 +1,5 @@
 body {
-  min-width: 360px;
+  min-width: 320px;
   width: auto !important;
   width: 10%;
   background: #c9f4ff;
@@ -162,6 +162,35 @@ footer p span {
         -ms-flex-flow: row;
             flex-flow: row;
   }
+  .hero .container article {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background: white;
+    padding: 1em;
+    margin-top: .3em;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .hero .container article .article-img {
+    height: 280px;
+  }
+  .hero .container article .article-info {
+    display: block;
+    margin: -10px 10px;
+  }
+  .hero .container article .article-info .article-head {
+    display: to;
+    margin-left: 10px;
+    text-align: center;
+  }
+  .hero .container article .article-info .article-info-list {
+    list-style: none;
+  }
+  .hero .container article .article-info .article-info {
+    float: right;
+  }
   .hero .container nav {
     float: left;
     width: 15%;
@@ -169,7 +198,6 @@ footer p span {
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
             order: 1;
-    margin-right: 4px;
   }
   .hero .container nav .article-item-list {
     display: block;
@@ -188,7 +216,6 @@ footer p span {
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
             order: 2;
-    margin-right: 4px;
   }
   .hero .container aside {
     width: auto;

@@ -1,6 +1,6 @@
 
 body{
-    min-width: 360px;
+    min-width: 320px;
     width: auto !important;
     width:10%;
     background: rgb(201, 244, 255);
@@ -151,16 +151,49 @@ footer {
         .container{
             flex-flow: row;
 
+            article {
+                display: flex;
+                background: white;
+                padding: 1em;
+                margin-top: .3em;
+                order: 1;
+    
+                .article-img{
+                    height: 280px;
+                }
+    
+                .article-info{
+                    display: block;
+                    margin: -10px 10px;
+    
+                    .article-head{
+                        display: to;
+                        margin-left: 10px;
+                        text-align: center;
+                    }
+    
+                    .article-info-list{
+                        list-style:  none;
+                                           
+                    }
+        
+                    .article-info{
+                        float: right;
+                    }
+                }           
+            }
+
             nav {
                 float: left;
                 width: 15%;
                 height: auto;
                 order: 1;
-                margin-right: 4px;
+                
 
                 .article-item-list{
                     display: block;
                     text-align: center;
+
                     li{
                         margin: 10px;
                         list-style: none;
@@ -178,7 +211,7 @@ footer {
                 width: auto;
                 min-width: 51%;
                 order: 2;
-                margin-right: 4px;
+
             }
                
             aside {
