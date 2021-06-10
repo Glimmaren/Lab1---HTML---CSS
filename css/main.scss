@@ -37,7 +37,7 @@ header {
             order: 1;
 
             .article-img{
-                height: 362px;
+                height: 280px;
             }
 
             .article-info{
@@ -51,7 +51,8 @@ header {
                 }
 
                 .article-info-list{
-                    list-style:  none;                   
+                    list-style:  none;
+                                       
                 }
     
                 .article-info{
@@ -69,17 +70,17 @@ header {
             .article-item-list{
                 display: flex;
                 text-align: center;
+                margin-left: -16px;
 
                 li{
-                    margin: 10px;
+                    margin: auto;
                     list-style: none;
 
                     .listImg{
 
                         img{
                             width: 30%;
-                        }
-                        
+                        }                        
                     }
                 }
             }
@@ -145,7 +146,7 @@ footer {
         }
 }
 
-@media only screen and (min-width: 850px) {
+@media only screen and (min-width: 1100px) {
     .hero {
         
         .container{
@@ -156,10 +157,12 @@ footer {
                 background: white;
                 padding: 1em;
                 margin-top: .3em;
+
+
                 order: 1;
     
                 .article-img{
-                    height: 280px;
+                    height: 362px;
                 }
     
                 .article-info{
@@ -173,8 +176,7 @@ footer {
                     }
     
                     .article-info-list{
-                        list-style:  none;
-                                           
+                        list-style:  none;                   
                     }
         
                     .article-info{
@@ -188,12 +190,11 @@ footer {
                 width: 15%;
                 height: auto;
                 order: 1;
-                
+                margin-right: 4px;
 
                 .article-item-list{
                     display: block;
                     text-align: center;
-
                     li{
                         margin: 10px;
                         list-style: none;
@@ -211,7 +212,7 @@ footer {
                 width: auto;
                 min-width: 51%;
                 order: 2;
-
+                margin-right: 4px;
             }
                
             aside {

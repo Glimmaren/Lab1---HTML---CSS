@@ -47,7 +47,7 @@ header .container .logo-img {
 }
 
 .hero .container article .article-img {
-  height: 362px;
+  height: 280px;
 }
 
 .hero .container article .article-info {
@@ -83,10 +83,11 @@ header .container .logo-img {
   display: -ms-flexbox;
   display: flex;
   text-align: center;
+  margin-left: -16px;
 }
 
 .hero .container nav .article-item-list li {
-  margin: 10px;
+  margin: auto;
   list-style: none;
 }
 
@@ -155,7 +156,7 @@ footer p span {
   font-weight: bold;
 }
 
-@media only screen and (min-width: 850px) {
+@media only screen and (min-width: 1100px) {
   .hero .container {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -174,7 +175,7 @@ footer p span {
             order: 1;
   }
   .hero .container article .article-img {
-    height: 280px;
+    height: 362px;
   }
   .hero .container article .article-info {
     display: block;
@@ -198,6 +199,7 @@ footer p span {
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
             order: 1;
+    margin-right: 4px;
   }
   .hero .container nav .article-item-list {
     display: block;
@@ -216,6 +218,7 @@ footer p span {
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
             order: 2;
+    margin-right: 4px;
   }
   .hero .container aside {
     width: auto;
