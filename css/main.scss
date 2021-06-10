@@ -1,0 +1,211 @@
+
+body{
+    min-width: 360px;
+    width: auto !important;
+    width:10%;
+    background: rgb(201, 244, 255);
+}
+
+header {
+    background-color:white;
+    padding: 1em;
+    text-align: center;
+    font-size: 1.2em;
+    
+    .container{
+        display: flex;
+        place-content: space-between;
+        
+        .logo-img{
+            width: 50%;
+            float: left;
+        }
+    }   
+}
+
+.hero{ //vet att detta är fel nu, "hero" skall inte innehålla nav osv...
+
+    .container{       
+        display: flex;
+        flex-flow: column;
+
+        article {
+            display: flex;
+            background: white;
+            padding: 1em;
+            margin-top: .3em;
+            order: 1;
+
+            .article-img{
+                height: 362px;
+            }
+
+            .article-info{
+                display: block;
+                margin: -10px 10px;
+
+                .article-head{
+                    display: to;
+                    margin-left: 10px;
+                    text-align: center;
+                }
+
+                .article-info-list{
+                    list-style:  none;                   
+                }
+    
+                .article-info{
+                    float: right;
+                }
+            }           
+        }
+
+        nav {                      
+            background: white;
+            padding: 1em;
+            margin-top: .3em;
+            order: 2;
+
+            .article-item-list{
+                display: flex;
+                text-align: center;
+
+                li{
+                    margin: 10px;
+                    list-style: none;
+
+                    .listImg{
+
+                        img{
+                            width: 30%;
+                        }
+                        
+                    }
+                }
+            }
+        }
+
+        aside {
+            background: white;
+            padding: 1em;
+            margin-top: .3em;
+            order: 3;
+
+            .presentation{        
+                display: flex;
+                border: 3px solid red;
+                margin: auto;
+                width: 300px;
+                height: 170px;
+                
+
+                .presentation-img{
+                    width: 197px;
+                    height: 170px;
+                    border-radius: 50%;
+                }
+
+                .presentation-info{
+                    margin-right: 0px;
+                    
+                    h3{
+                        margin-top: 5px;
+                        margin-bottom: 0px;                       
+                    }
+
+                    p{
+                        margin-top: 0px;
+                    }
+
+                    ul{
+                        list-style: none;
+                        margin-top: 0;
+                        margin-left: -40px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    background-color: white;
+    padding: 1em;
+    margin-top: .3em;
+
+        p{
+            font-style: italic;
+
+            span{
+                font-style: normal;
+                font-weight: bold;
+            }
+        }
+}
+
+@media only screen and (min-width: 850px) {
+    .hero {
+        
+        .container{
+            flex-flow: row;
+
+            nav {
+                float: left;
+                width: 15%;
+                height: auto;
+                order: 1;
+                margin-right: 4px;
+
+                .article-item-list{
+                    display: block;
+                    text-align: center;
+                    li{
+                        margin: 10px;
+                        list-style: none;
+
+                        .listImg{
+                            img{
+                                width: 40%;
+                            }                           
+                        }
+                    }
+                }
+            }
+
+            article {
+                width: auto;
+                min-width: 51%;
+                order: 2;
+                margin-right: 4px;
+            }
+               
+            aside {
+                width: auto;
+                min-width: 340px;
+                height: auto;
+                order: 3;
+
+                .presentation{
+                    margin: auto;
+                    .presentation-img{
+                        width: 197px;
+                        height: 170px;
+                        border-radius: 50%;
+                  
+                    }
+                }
+            }
+        }   
+    }
+
+    footer {
+
+    width: 100%;
+    background-color: white;
+    padding: 1em;
+    margin-top: .3em;
+    
+    }   
+}

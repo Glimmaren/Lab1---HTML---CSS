@@ -1,0 +1,216 @@
+body {
+  min-width: 360px;
+  width: auto !important;
+  width: 10%;
+  background: #c9f4ff;
+}
+
+header {
+  background-color: white;
+  padding: 1em;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+}
+
+header .container .logo-img {
+  width: 50%;
+  float: left;
+}
+
+.hero .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+.hero .container article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: white;
+  padding: 1em;
+  margin-top: .3em;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+.hero .container article .article-img {
+  height: 362px;
+}
+
+.hero .container article .article-info {
+  display: block;
+  margin: -10px 10px;
+}
+
+.hero .container article .article-info .article-head {
+  display: to;
+  margin-left: 10px;
+  text-align: center;
+}
+
+.hero .container article .article-info .article-info-list {
+  list-style: none;
+}
+
+.hero .container article .article-info .article-info {
+  float: right;
+}
+
+.hero .container nav {
+  background: white;
+  padding: 1em;
+  margin-top: .3em;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+.hero .container nav .article-item-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+
+.hero .container nav .article-item-list li {
+  margin: 10px;
+  list-style: none;
+}
+
+.hero .container nav .article-item-list li .listImg img {
+  width: 30%;
+}
+
+.hero .container aside {
+  background: white;
+  padding: 1em;
+  margin-top: .3em;
+  -webkit-box-ordinal-group: 4;
+      -ms-flex-order: 3;
+          order: 3;
+}
+
+.hero .container aside .presentation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 3px solid red;
+  margin: auto;
+  width: 300px;
+  height: 170px;
+}
+
+.hero .container aside .presentation .presentation-img {
+  width: 197px;
+  height: 170px;
+  border-radius: 50%;
+}
+
+.hero .container aside .presentation .presentation-info {
+  margin-right: 0px;
+}
+
+.hero .container aside .presentation .presentation-info h3 {
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.hero .container aside .presentation .presentation-info p {
+  margin-top: 0px;
+}
+
+.hero .container aside .presentation .presentation-info ul {
+  list-style: none;
+  margin-top: 0;
+  margin-left: -40px;
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  background-color: white;
+  padding: 1em;
+  margin-top: .3em;
+}
+
+footer p {
+  font-style: italic;
+}
+
+footer p span {
+  font-style: normal;
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 850px) {
+  .hero .container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row;
+            flex-flow: row;
+  }
+  .hero .container nav {
+    float: left;
+    width: 15%;
+    height: auto;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    margin-right: 4px;
+  }
+  .hero .container nav .article-item-list {
+    display: block;
+    text-align: center;
+  }
+  .hero .container nav .article-item-list li {
+    margin: 10px;
+    list-style: none;
+  }
+  .hero .container nav .article-item-list li .listImg img {
+    width: 40%;
+  }
+  .hero .container article {
+    width: auto;
+    min-width: 51%;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    margin-right: 4px;
+  }
+  .hero .container aside {
+    width: auto;
+    min-width: 340px;
+    height: auto;
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+  }
+  .hero .container aside .presentation {
+    margin: auto;
+  }
+  .hero .container aside .presentation .presentation-img {
+    width: 197px;
+    height: 170px;
+    border-radius: 50%;
+  }
+  footer {
+    width: 100%;
+    background-color: white;
+    padding: 1em;
+    margin-top: .3em;
+  }
+}
+/*# sourceMappingURL=main.css.map */
