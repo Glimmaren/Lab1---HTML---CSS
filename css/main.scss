@@ -23,15 +23,12 @@ header {
     }   
 }
 
-.hero{ //vet att detta är fel nu, "hero" skall inte innehålla nav osv...
+
+.hero{
 
     .container{       
         display: flex;
         flex-flow: column;
-
-        .heading{
-            display: none;
-        }
 
         article {
             display: block;
