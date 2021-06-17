@@ -13,8 +13,6 @@ header {
 }
 
 header .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   place-content: space-between;
 }
@@ -25,8 +23,6 @@ header .container .logo-img {
 }
 
 .hero .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -82,8 +78,6 @@ header .container .logo-img {
 }
 
 .hero .container nav .article-item-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   text-align: center;
   margin-left: -16px;
@@ -108,8 +102,6 @@ header .container .logo-img {
 }
 
 .hero .container aside .presentation {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   border: 3px solid #e69797;
   margin: auto;
@@ -167,8 +159,6 @@ footer p span {
             flex-flow: row;
   }
   .hero .container article {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     background: white;
     padding: 1em;
